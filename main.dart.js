@@ -39812,7 +39812,7 @@ mX(a,b){return this.y.$2(a,b)},
 F2(a){return this.z.$1(a)}}
 A.Hi.prototype={
 J(a){var s=this,r=null,q=A.jU(r,B.Ct,new A.a1T(a),r,"Configura\xe7\xf5es"),p=A.jU(r,B.Cn,new A.a1U(s),r,"Resetar o Canvas"),o=s.a,n=t.E
-return A.ol(r,A.au5(A.te(A.b([B.bg,q,B.bg,p,B.bg,A.jU(r,B.Cm,o.f,r,"Criar Novo Objeto"),B.bg,A.jU(r,B.Cr,o.r,r,"Criar Circunfer\xeancia"),B.bg,A.jU(r,B.Cq,o.w,r,"Criar Janela"),B.bg,A.te(A.b([B.O2,A.eR(A.HS(s.d,B.Cv,s.x,B.ed,new A.a1V(s),B.c4),r,55)],n),B.bz,B.FQ,B.co),B.bg,B.NZ,A.GX(A.b([A.jU(r,B.Co,new A.a1W(s),r,"Reflex\xe3o X"),A.jU(r,B.Cs,new A.a1X(s),r,"Reflex\xe3o Y")],n),B.bz,B.jb,B.co),B.bg,B.NW,A.GX(A.b([A.eR(A.HS(s.e,B.ma,s.y,B.ed,new A.a1Y(s),B.c4),r,55),A.eR(A.HS(s.f,B.mb,s.z,B.ed,new A.a1Z(s),B.c4),r,55)],n),B.bz,B.jb,B.co),B.bg,B.NX,A.GX(A.b([A.eR(A.HS(s.r,B.ma,r,B.ed,r,B.c4),r,55),A.eR(A.HS(s.w,B.mb,r,B.ed,r,B.c4),r,55)],n),B.bz,B.jb,B.co),B.bg,new A.FG(new A.a2_(s),r,r,r,r,B.C,r,!1,r,!0,B.NU,r),B.bg],n),B.bz,B.cn,B.co),B.b8),B.C,B.lf,r,r,r,r,150)}}
+return A.ol(r,A.au5(A.te(A.b([B.bg,q,B.bg,p,B.bg,A.jU(r,B.Cm,o.f,r,"Criar Novo Objeto"),B.bg,A.jU(r,B.Cr,o.r,r,"Criar Circunfer\xeancia"),B.bg,A.jU(r,B.Cq,o.w,r,"Criar Janela"),B.bg,A.te(A.b([B.O2,A.eR(A.HS(s.d,B.Cv,s.x,B.ed,new A.a1V(s),B.c4),r,55)],n),B.bz,B.FQ,B.co),B.bg,B.O0,A.GX(A.b([A.jU(r,B.Co,new A.a1W(s),r,"Reflex\xe3o X"),A.jU(r,B.Cs,new A.a1X(s),r,"Reflex\xe3o Y")],n),B.bz,B.jb,B.co),B.bg,B.NW,A.GX(A.b([A.eR(A.HS(s.e,B.ma,s.y,B.ed,new A.a1Y(s),B.c4),r,55),A.eR(A.HS(s.f,B.mb,s.z,B.ed,new A.a1Z(s),B.c4),r,55)],n),B.bz,B.jb,B.co),B.bg,B.NX,A.GX(A.b([A.eR(A.HS(s.r,B.ma,r,B.ed,r,B.c4),r,55),A.eR(A.HS(s.w,B.mb,r,B.ed,r,B.c4),r,55)],n),B.bz,B.jb,B.co),B.bg,new A.FG(new A.a2_(s),r,r,r,r,B.C,r,!1,r,!0,B.NU,r),B.bg],n),B.bz,B.cn,B.co),B.b8),B.C,B.lf,r,r,r,r,150)}}
 A.a1T.prototype={
 $0(){A.ayc(this.a)},
 $S:0}
@@ -39871,7 +39871,7 @@ A.ace.prototype={
 $2(a,b){var s,r=$.acZ,q=t.N,p=A.XT(A.a_1(r,new A.aca(b),"DDA",q),B.NT)
 r=A.XT(A.a_1(r,new A.acb(b),"Bresenham",q),B.NV)
 s=$.acY
-return new A.nW(B.O0,A.te(A.b([B.O1,p,r,B.Bc,B.O3,A.XT(A.a_1(s,new A.acc(b),"Cohen-Sutherland",q),B.O_),A.XT(A.a_1(s,new A.acd(b),"Liang-Barsky",q),B.O4)],t.E),B.bz,B.cn,B.dP),null)},
+return new A.nW(B.O_,A.te(A.b([B.O1,p,r,B.Bc,B.O3,A.XT(A.a_1(s,new A.acc(b),"Cohen-Sutherland",q),B.NZ),A.XT(A.a_1(s,new A.acd(b),"Liang-Barsky",q),B.O4)],t.E),B.bz,B.cn,B.dP),null)},
 $S:314}
 A.aca.prototype={
 $1(a){this.a.$1(new A.ac9(a))},
@@ -80004,9 +80004,9 @@ B.NW=new A.dl("Escala:",null,B.hb,null,null,null,null,null,null)
 B.NX=new A.dl("Transla\xe7\xe3o:",null,B.hb,null,null,null,null,null,null)
 B.N1=new A.n(!0,B.l,null,null,null,null,null,B.iv,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.NY=new A.dl("Paint",null,B.N1,null,null,null,null,null,null)
-B.NZ=new A.dl("Reflex\xe3o X/Y/XY:",null,B.hb,null,null,null,null,null,null)
-B.O_=new A.dl("Cohen-Sutherland",null,null,null,null,null,null,null,null)
-B.O0=new A.dl("Configura\xe7\xf5es",null,null,null,null,null,null,null,null)
+B.NZ=new A.dl("Cohen-Sutherland",null,null,null,null,null,null,null,null)
+B.O_=new A.dl("Configura\xe7\xf5es",null,null,null,null,null,null,null,null)
+B.O0=new A.dl("Reflex\xe3o X/Y:",null,B.hb,null,null,null,null,null,null)
 B.O1=new A.dl("M\xe9todo de Rasteriza\xe7\xe3o:",null,null,null,null,null,null,null,null)
 B.O2=new A.dl("Rota\xe7\xe3o em \xb0C:",null,B.hb,null,null,null,null,null,null)
 B.O3=new A.dl("M\xe9todo de Recorte:",null,null,null,null,null,null,null,null)
